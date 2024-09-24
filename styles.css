@@ -37,6 +37,8 @@ tr:nth-child(2):hover {
 }
 
 .square1 {
+    top: 297px;
+    left: 140px;
     background-color: #B26600;
     border-radius: 10px;
     box-shadow: 0 0 0 2px #B26600, 0 0 0 1.5px black, 0 0 0 3px black;
@@ -47,10 +49,30 @@ tr:nth-child(2):hover {
 
 .square2 {
     top: 330px;
-    left: 40px;
+    left: 170px;
     opacity: 0.9;
     background-color: #733C3C;
     border-radius: 10px;
     box-shadow: 0 0 0 2px #733C3C, 0 0 0 1.5px black, 0 0 0 3px black;
     border: 1px solid black;
+}
+.square3, .square4 {
+    width: 60px;
+    height: 60px;
+    background-color: #B26600;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #B26600, 0 0 0 1.5px black, 0 0 0 3px black;
+    border: 1px solid black;
+    transform: translate(0, 0); /* Це початкові координати */
+}
+
+.square3 {
+    background-color: #B26600;
+}
+
+.square4 {
+    background-color: #733C3C;
+    box-shadow: 0 0 0 2px #733C3C, 0 0 0 1.5px black, 0 0 0 3px black;
+    opacity: 0.9;
+    transform: translate(30px, -28px); /* Розміщуємо фігуру, як це було за допомогою position */
 }
